@@ -82,8 +82,14 @@ body, html {
 
 }
 
-.left-column button{
-    width: fit-content;
+.cta-button{
+    width: 6rem ;
+    background: #3882F6;
+    height: 30px;
+    padding: 0;
+    border: none;
+    color: white;
+    border-radius: 10px;
 }
 
 .services{
@@ -146,4 +152,49 @@ body, html {
 
     font-size: 18px;
 
+}
+
+.cta{
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.cta-box{
+    background-color: #3882F6;
+    height: 40%;
+    margin: 0 8rem 0 8rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+
+.cta-box *{
+    /* border: 5px solid red; */
+}
+
+.cta-message{
+    font-size: 20px;
+    font-weight: bold;
+    margin:1px;
+}
+
+.cta-submessage{
+    margin:1px;
+}
+
+.cta-box .left-column{
+    padding:0;
+    flex: 3 1 auto;
+}
+
+.cta-box .right-column{
+    flex: 1 1 auto;
+}
+
+.cta-box .cta-button{
+    border: 2px solid white;
 }
