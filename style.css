@@ -86,10 +86,6 @@ body, html {
     width: fit-content;
 }
 
-.services *{
-    /* border: 5px solid red; */
-}
-
 .services{
     display: flex;
     flex-direction: column;
@@ -118,6 +114,36 @@ body, html {
   border-radius: 10px;
   height: 100px;
   width: 100px;
+}
 
+.customer-testimonial{
+    background-color: #E5E7EB;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.customer-testimonial .testimonial{
+    margin: 0 8rem 0 8rem;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 100;
+    text-align: justify;
+}
+
+.customer-testimonial .author{
+    margin: 0 8rem 0 8rem;
+    text-align: right;
+    font-size: 24px;
+    font-style: italic;
+    color: #5e6a79;
+    font-weight: bold;
+}
+
+.customer-testimonial .author-subtext{
+
+    font-size: 18px;
 
 }
