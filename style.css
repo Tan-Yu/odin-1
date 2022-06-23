@@ -198,3 +198,13 @@ body, html {
 .cta-box .cta-button{
     border: 2px solid white;
 }
+
+.footer{
+    height:5rem;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
