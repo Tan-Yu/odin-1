@@ -45,23 +45,20 @@ body, html {
 
 .landing {
     background-color: #1F2937;
-    height: 15rem;
+    height: 20rem;
     color: #F9FAF8;
     display: flex;
     flex-direction:row;
-    
-
+    align-items: center;
 }
-
-/* .landing {
-    flex-grow: 1 ;
-} */
 
 .left-column{
     margin-left:8rem;
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    flex: 1 1 100%;
+    padding-right: 5rem;
+
 }
 
 .hero-main-text{
@@ -70,7 +67,6 @@ body, html {
     margin:0px;
 
 }
-
 
 .hero-right .image-placeholder{
     background: peachpuff;
@@ -82,9 +78,46 @@ body, html {
 
 .right-column{
     margin-right:8rem;
-    flex-grow: 3;
+    flex: 1 1 100%;
+
 }
 
 .left-column button{
-    width: 10%;
+    width: fit-content;
+}
+
+.services *{
+    /* border: 5px solid red; */
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.services h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+
+.services-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    justify-content: space-between;
+    padding: 0 8rem 0 8rem;
+}
+
+.services-list .image-placeholder{
+  border: 4px solid rgb(42, 87, 165);
+  border-radius: 10px;
+  height: 100px;
+  width: 100px;
+
+
 }
