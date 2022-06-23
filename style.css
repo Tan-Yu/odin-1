@@ -207,4 +207,5 @@ body, html {
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin-top: auto;
 }
